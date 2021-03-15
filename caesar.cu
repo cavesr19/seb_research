@@ -2,6 +2,8 @@
 #include <cuda.h>
 #include <string.h>
 
+//testing commit
+
 //ensure that your code is safeguarded against segmentstion faults etc...
 __global__ void cypher_thread(char * t_input, char * t_output, int length){
     int idx = threadIdx.x;
